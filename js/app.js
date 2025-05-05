@@ -243,3 +243,26 @@ const libro = {
 }
 
 console.log(libro)
+
+
+let Marvel = {
+   name:'Tony Stark',
+   isAlive: false,
+   age:40,
+   coords:{
+      lat: 35.056,
+      lng: -7.0789
+   },
+   suit:['Mark 1, Mark 5','Hulkbuster'],
+   address:{
+      zip:'680004',
+      l0ocation:'Malibu, California'
+   }
+};
+//opcion 1 (objeto.nameAtributo)
+console.log(Marvel.name)
+//opcion 2 (objeto[nameAtributo])
+console.log(Marvel['age'])
+
+//
+
